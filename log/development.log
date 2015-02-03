@@ -1,0 +1,952 @@
+  [1m[36m (2.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (3.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-09 23:30:11 -0200
+Processing by Rails::WelcomeController#index as */*
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (4.3ms)
+Completed 200 OK in 40ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-09 23:35:26 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 33ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-09 23:35:28 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-09 23:35:29 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-09 23:35:30 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-09 23:35:30 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-09 23:35:30 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-09 23:35:30 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-09 23:35:31 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-09 23:35:31 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-09 23:35:32 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-09 23:35:32 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-09 23:35:32 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-09 23:35:33 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-09 23:35:33 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-09 23:35:33 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:47:40 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 33ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:47:41 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:47:41 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:47:42 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:47:42 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:47:42 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:47:43 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:47:43 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:47:43 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:47:43 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:47:44 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:47:44 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:47:45 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:48:07 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:48:08 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:48:08 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:48:09 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:52:43 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:52:43 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:52:44 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:52:44 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:52:44 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:53:05 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:53:05 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:53:06 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:53:06 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:53:06 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:53:07 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:53:07 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:53:07 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:53:08 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:53:08 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:53:08 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:53:08 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:53:09 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:53:09 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:53:09 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:53:09 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-10 00:53:10 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 10.0.2.2 at 2015-01-10 00:53:17 -0200
+Processing by Rails::InfoController#properties as */*
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/info/properties.html.erb (0.3ms)
+Completed 200 OK in 69ms (Views: 9.4ms | ActiveRecord: 8.7ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-19 18:40:29 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:393:in `check_pending!'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activerecord-4.2.0/lib/active_record/migration.rb:374:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:88:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/rack/logger.rb:38:in `call_app'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/rack/logger.rb:20:in `block in call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:26:in `tagged'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:68:in `tagged'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/rack/logger.rb:20:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.6.0/lib/rack/methodoverride.rb:22:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.6.0/lib/rack/runtime.rb:18:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.6.0/lib/rack/lock.rb:17:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/static.rb:113:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.6.0/lib/rack/sendfile.rb:113:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/engine.rb:518:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/application.rb:164:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.6.0/lib/rack/content_length.rb:15:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/thin-1.6.3/lib/thin/connection.rb:86:in `block in pre_process'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/thin-1.6.3/lib/thin/connection.rb:84:in `catch'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/thin-1.6.3/lib/thin/connection.rb:84:in `pre_process'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/thin-1.6.3/lib/thin/connection.rb:53:in `process'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/thin-1.6.3/lib/thin/connection.rb:39:in `receive_data'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.4/lib/eventmachine.rb:187:in `run_machine'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.4/lib/eventmachine.rb:187:in `run'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/thin-1.6.3/lib/thin/backends/base.rb:73:in `start'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/thin-1.6.3/lib/thin/server.rb:162:in `start'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.6.0/lib/rack/handler/thin.rb:19:in `run'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.6.0/lib/rack/server.rb:286:in `start'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/commands/server.rb:80:in `start'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/commands/commands_tasks.rb:75:in `tap'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/commands/commands_tasks.rb:75:in `server'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/commands.rb:17:in `<top (required)>'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/app_rails_loader.rb:45:in `require'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/app_rails_loader.rb:45:in `block in exec_app_rails'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/app_rails_loader.rb:34:in `loop'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/app_rails_loader.rb:34:in `exec_app_rails'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/cli.rb:5:in `<top (required)>'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/bin/rails:9:in `require'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/bin/rails:9:in `<top (required)>'
+  /home.rbenv/versions/2.1.0/bin/rails:23:in `load'
+  /home.rbenv/versions/2.1.0/bin/rails:23:in `<main>'
+
+
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (1.9ms)
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (25.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateCustomers (20150116112952)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "customers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150116112952"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Migrating to AddStripeUuidToCustomers (20150116143814)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (1.7ms)[0m  [1mALTER TABLE "customers" ADD "stripe_uuid" varchar[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150116143814"]]
+  [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
+Migrating to CreateCreditCards (20150118234428)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (2.2ms)[0m  [1mCREATE TABLE "credit_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "customer_id" integer NOT NULL, "stripe_uuid" varchar, "number" varchar NOT NULL, "exp_month" integer NOT NULL, "exp_year" integer NOT NULL, "cvc" integer, "name" varchar, "address_line1" varchar, "address_line2" varchar, "address_city" varchar, "address_zip" varchar, "address_state" varchar, "address_country" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_credit_cards_on_customer_id" ON "credit_cards" ("customer_id")[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150118234428"]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (3.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_credit_cards_on_customer_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_credit_cards_on_customer_id' AND type='index'
+[0m
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-19 18:40:48 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (1.2ms)[0m  SELECT "customers".* FROM "customers"
+  Rendered customers/index.html.erb within layouts/application (28.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.5ms)
+  Rendered layouts/_navigation.html.erb (12.9ms)
+Completed 200 OK in 1712ms (Views: 1670.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap-5ee87784e48151904cad2bc4afc6720f.css?body=1" for 10.0.2.2 at 2015-01-19 18:40:51 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome-09acf253440363e31b6fd0b3d4ff496f.css?body=1" for 10.0.2.2 at 2015-01-19 18:40:51 -0200
+
+
+Started GET "/assets/bootstrap_and_overrides-d81bcb4d4c3ee2fdf28dac7e176017b9.css?body=1" for 10.0.2.2 at 2015-01-19 18:40:51 -0200
+
+
+Started GET "/assets/credit_cards-069e88c06b889877799890854d7f4c40.css?body=1" for 10.0.2.2 at 2015-01-19 18:40:51 -0200
+
+
+Started GET "/assets/customers-069e88c06b889877799890854d7f4c40.css?body=1" for 10.0.2.2 at 2015-01-19 18:40:51 -0200
+
+
+Started GET "/assets/scaffolds-fd72119d19bb59bbd614f3abfc442142.css?body=1" for 10.0.2.2 at 2015-01-19 18:40:51 -0200
+
+
+Started GET "/assets/application-9d0a011ba9e97f51891241e4584259be.css?body=1" for 10.0.2.2 at 2015-01-19 18:40:51 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal-22e4b3cc7039c9f2e14126a988381a78.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:51 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition-e920d99b8661546d8bfb3a50bb3401ff.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:51 -0200
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:51 -0200
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:51 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert-d9badd591415c8d9b56188d457413a2f.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown-e4346577672a4a7ee768730d6ad0b4cd.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy-fa91706a0639aaa5d768f8f3c74b25a9.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab-57128bfb849374981c34258d59437841.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip-2c1ded952ba256a006c5fe5827c3345a.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover-25da2e821aee1328fdd68c902ea2ca4e.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse-84e55a4a7e94f05d923f3091c166ff2e.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button-b0d2047e0a9531f022e7b3974a53f026.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel-8a517fb8e112cfb5cbce10a44a8da4ac.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:52 -0200
+
+
+Started GET "/assets/credit_cards-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap-e800ced57066492f80dd348fac5ddae0.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:52 -0200
+
+
+Started GET "/assets/customers-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:52 -0200
+
+
+Started GET "/assets/bootstrap-cdbf39157e563e52989aa4d66a1f0055.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:53 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix-b4ba482492fdd3f469614f39f066e0d0.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:53 -0200
+
+
+Started GET "/assets/application-8c41a0533eaab9224874cf8c3f58a5af.js?body=1" for 10.0.2.2 at 2015-01-19 18:40:53 -0200
+
+
+Started GET "/images/favicon.ico" for 10.0.2.2 at 2015-01-19 18:40:53 -0200
+
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/rack/logger.rb:38:in `call_app'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/rack/logger.rb:20:in `block in call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:26:in `tagged'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/tagged_logging.rb:68:in `tagged'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/rack/logger.rb:20:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.6.0/lib/rack/methodoverride.rb:22:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.6.0/lib/rack/runtime.rb:18:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/activesupport-4.2.0/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.6.0/lib/rack/lock.rb:17:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/static.rb:113:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.6.0/lib/rack/sendfile.rb:113:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/engine.rb:518:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/application.rb:164:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.6.0/lib/rack/content_length.rb:15:in `call'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/thin-1.6.3/lib/thin/connection.rb:86:in `block in pre_process'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/thin-1.6.3/lib/thin/connection.rb:84:in `catch'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/thin-1.6.3/lib/thin/connection.rb:84:in `pre_process'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/thin-1.6.3/lib/thin/connection.rb:53:in `process'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/thin-1.6.3/lib/thin/connection.rb:39:in `receive_data'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.4/lib/eventmachine.rb:187:in `run_machine'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/eventmachine-1.0.4/lib/eventmachine.rb:187:in `run'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/thin-1.6.3/lib/thin/backends/base.rb:73:in `start'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/thin-1.6.3/lib/thin/server.rb:162:in `start'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.6.0/lib/rack/handler/thin.rb:19:in `run'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/rack-1.6.0/lib/rack/server.rb:286:in `start'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/commands/server.rb:80:in `start'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/commands/commands_tasks.rb:75:in `tap'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/commands/commands_tasks.rb:75:in `server'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/commands.rb:17:in `<top (required)>'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/app_rails_loader.rb:45:in `require'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/app_rails_loader.rb:45:in `block in exec_app_rails'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/app_rails_loader.rb:34:in `loop'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/app_rails_loader.rb:34:in `exec_app_rails'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/cli.rb:5:in `<top (required)>'
+  /home.rbenv/versions/2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:73:in `require'
+  /home.rbenv/versions/2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:73:in `require'
+  /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.2.0/bin/rails:9:in `<top (required)>'
+  /home.rbenv/versions/2.1.0/bin/rails:23:in `load'
+  /home.rbenv/versions/2.1.0/bin/rails:23:in `<main>'
+
+
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (31.1ms)
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.6ms)
+  Rendered /home.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (68.5ms)
+
+
+Started GET "/customers" for 10.0.2.2 at 2015-01-19 18:40:55 -0200
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (1.0ms)[0m  [1mSELECT "customers".* FROM "customers"[0m
+  Rendered customers/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.2ms)
+  Rendered layouts/_navigation.html.erb (11.8ms)
+Completed 200 OK in 559ms (Views: 557.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/customers/new" for 10.0.2.2 at 2015-01-19 18:40:56 -0200
+Processing by CustomersController#new as HTML
+  Rendered customers/_form.html.erb (212.8ms)
+  Rendered customers/new.html.erb within layouts/application (231.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.2ms)
+  Rendered layouts/_navigation.html.erb (14.4ms)
+Completed 200 OK in 772ms (Views: 767.2ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/customers" for 10.0.2.2 at 2015-01-19 18:41:03 -0200
+Processing by CustomersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kR7nVIM3KiEHpZsQGZqCAGX/VPm63wE8yOdLaq8Mi2TvZ0iOAXNaZzAAlKgYdlrU3ooQEsui1Eno/hcINosutA==", "customer"=>{"name"=>"James Hu", "email"=>"hello@gmail.com"}, "commit"=>"Create Customer"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mCustomer Exists (5.3ms)[0m  [1mSELECT  1 AS one FROM "customers" WHERE "customers"."email" = 'hello@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "customers" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "James Hu"], ["email", "hello@gmail.com"], ["created_at", "2015-01-19 20:41:04.080006"], ["updated_at", "2015-01-19 20:41:04.080006"]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+[ActiveJob] Enqueued StripeCustomersCreateJob (Job ID: 7962eed5-25ca-45f6-ad7d-e3e3cf6357e9) to Inline(default) with arguments: gid://challenge/Customer/1
+[ActiveJob]   [1m[35mCustomer Load (0.8ms)[0m  SELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT 1  [["id", 1]]
+[ActiveJob] [StripeCustomersCreateJob] [7962eed5-25ca-45f6-ad7d-e3e3cf6357e9] Performing StripeCustomersCreateJob from Inline(default) with arguments: gid://challenge/Customer/1
+[ActiveJob] [StripeCustomersCreateJob] [7962eed5-25ca-45f6-ad7d-e3e3cf6357e9] Performed StripeCustomersCreateJob from Inline(default) in 19.61ms
+[ActiveJob] StripeCustomersCreateJob try 1. No API key provided. Set your API key using "Stripe.api_key = <API-KEY>". You can generate API keys from the Stripe web interface. See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+ Retrying later...
+[ActiveJob] Enqueued StripeCustomersCreateJob (Job ID: c2b019d2-b0ba-4146-bc74-c0b1e5e68ad3) to Inline(default) with arguments: gid://challenge/Customer/1, 2
+[ActiveJob]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT 1[0m  [["id", "1"]]
+[ActiveJob] [StripeCustomersCreateJob] [c2b019d2-b0ba-4146-bc74-c0b1e5e68ad3] Performing StripeCustomersCreateJob from Inline(default) with arguments: gid://challenge/Customer/1, 2
+[ActiveJob] [StripeCustomersCreateJob] [c2b019d2-b0ba-4146-bc74-c0b1e5e68ad3] Performed StripeCustomersCreateJob from Inline(default) in 0.98ms
+[ActiveJob] StripeCustomersCreateJob try 2. No API key provided. Set your API key using "Stripe.api_key = <API-KEY>". You can generate API keys from the Stripe web interface. See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+ Retrying later...
+[ActiveJob] Enqueued StripeCustomersCreateJob (Job ID: 358ea161-f06f-434b-a910-075e539b722d) to Inline(default) with arguments: gid://challenge/Customer/1, 3
+[ActiveJob]   [1m[35mCACHE (0.0ms)[0m  SELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT 1  [["id", "1"]]
+[ActiveJob] [StripeCustomersCreateJob] [358ea161-f06f-434b-a910-075e539b722d] Performing StripeCustomersCreateJob from Inline(default) with arguments: gid://challenge/Customer/1, 3
+[ActiveJob] [StripeCustomersCreateJob] [358ea161-f06f-434b-a910-075e539b722d] Performed StripeCustomersCreateJob from Inline(default) in 1.34ms
+[ActiveJob] StripeCustomersCreateJob try 3. No API key provided. Set your API key using "Stripe.api_key = <API-KEY>". You can generate API keys from the Stripe web interface. See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+ Retrying later...
+[ActiveJob] Enqueued StripeCustomersCreateJob (Job ID: bce8cf15-ac73-42b9-97d0-a601004d076a) to Inline(default) with arguments: gid://challenge/Customer/1, 4
+[ActiveJob]   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? LIMIT 1[0m  [["id", "1"]]
+[ActiveJob] [StripeCustomersCreateJob] [bce8cf15-ac73-42b9-97d0-a601004d076a] Performing StripeCustomersCreateJob from Inline(default) with arguments: gid://challenge/Customer/1, 4
+[ActiveJob] [StripeCustomersCreateJob] [bce8cf15-ac73-42b9-97d0-a601004d076a] Performed StripeCustomersCreateJob from Inline(default) in 1.69ms
+[ActiveJob] FATAL StripeCustomersCreateJob: No API key provided. Set your API key using "Stripe.api_key = <API-KEY>". You can generate API keys from the Stripe web interface. See https://stripe.com/api for details, or email support@stripe.com if you have any questions.
+Redirected to http://localhost:30000/customers
+Completed 302 Found in 199ms (ActiveRecord: 9.7ms)
+
+
+Started GET "/customers" for 10.0.2.2 at 2015-01-19 18:41:04 -0200
+Processing by CustomersController#index as HTML
+  [1m[35mCustomer Load (1.0ms)[0m  SELECT "customers".* FROM "customers"
+  Rendered customers/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.erb (13.1ms)
+Completed 200 OK in 499ms (Views: 497.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/credit_cards" for 10.0.2.2 at 2015-01-19 18:41:07 -0200
+Processing by CreditCardsController#index as HTML
+  [1m[36mCreditCard Load (1.1ms)[0m  [1mSELECT "credit_cards".* FROM "credit_cards"[0m
+  Rendered credit_cards/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.2ms)
+  Rendered layouts/_navigation.html.erb (11.9ms)
+Completed 200 OK in 551ms (Views: 526.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/credit_cards/new" for 10.0.2.2 at 2015-01-19 18:41:09 -0200
+Processing by CreditCardsController#new as HTML
+  [1m[35mCustomer Load (1.0ms)[0m  SELECT "customers".* FROM "customers"
+  Rendered credit_cards/_form.html.erb (237.9ms)
+  Rendered credit_cards/new.html.erb within layouts/application (254.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.2ms)
+  Rendered layouts/_navigation.html.erb (11.0ms)
+Completed 200 OK in 788ms (Views: 779.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-01-19 18:41:16 -0200
+Processing by CustomersController#index as HTML
+  [1m[36mCustomer Load (0.8ms)[0m  [1mSELECT "customers".* FROM "customers"[0m
+  Rendered customers/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.2ms)
+  Rendered layouts/_navigation.html.erb (10.4ms)
+Completed 200 OK in 509ms (Views: 508.3ms | ActiveRecord: 0.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateCreditCards (20150118234428)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.9ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_credit_cards_on_customer_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_credit_cards_on_customer_id' AND type='index'
+
+  [1m[36m (1.5ms)[0m  [1mDROP INDEX "index_credit_cards_on_customer_id"[0m
+  [1m[35m (0.7ms)[0m  DROP TABLE "credit_cards"
+  [1m[36mSQL (1.1ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20150118234428"]]
+  [1m[35m (2.8ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (3.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateCustomers (20150117075123)
+  [1m[35m (0.2ms)[0m  begin transaction
+DEPRECATION WARNING: `#timestamp` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /vagrant/db/migrate/20150117075123_devise_create_customers.rb:34)
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "customers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) [0m
+SQLite3::SQLException: table "customers" already exists: CREATE TABLE "customers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) 
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (2.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (4.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to DeviseCreateCustomers (20150117075123)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+DEPRECATION WARNING: `#timestamp` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /vagrant/db/migrate/20150117075123_devise_create_customers.rb:34)
+  [1m[35m (1.6ms)[0m  CREATE TABLE "customers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_customers_on_email" ON "customers" ("email")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_customers_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_customers_on_email' AND type='index'
+
+  [1m[36m (0.3ms)[0m  [1mCREATE UNIQUE INDEX "index_customers_on_reset_password_token" ON "customers" ("reset_password_token")[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150117075123"]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+Migrating to AddStripeIdToCustomers (20150117095848)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (2.0ms)[0m  [1mALTER TABLE "customers" ADD "stripe_id" varchar[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150117095848"]]
+  [1m[36m (4.1ms)[0m  [1mcommit transaction[0m
+Migrating to CreateCreditCards (20150117105334)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (2.8ms)[0m  [1mCREATE TABLE "credit_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "number" varchar NOT NULL, "exp_month" varchar NOT NULL, "exp_year" varchar NOT NULL, "customer_id" integer NOT NULL, "stripe_id" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150117105334"]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.8ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.7ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_customers_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_customers_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.6ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_customers_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_customers_on_email' AND type='index'
+
+  [1m[36m (4.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (3.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.8ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateCustomers (20150116185418)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (6.8ms)[0m  CREATE TABLE "customers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "stripe_id" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150116185418"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Migrating to CreateCreditCards (20150116190808)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (4.0ms)[0m  CREATE TABLE "credit_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "stripe_id" varchar, "last4" varchar, "brand" varchar, "exp_month" integer, "exp_year" integer, "customer_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_credit_cards_on_customer_id" ON "credit_cards" ("customer_id")[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150116190808"]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_credit_cards_on_customer_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_credit_cards_on_customer_id' AND type='index'
+[0m
+  [1m[36m (2.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (2.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateCustomers (20150115002208)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.6ms)[0m  CREATE TABLE "customers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "address" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150115002208"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Migrating to AddStripeIdToCustomer (20150115010930)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.6ms)[0m  ALTER TABLE "customers" ADD "stripe_id" varchar
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150115010930"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (2.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (2.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateCustomers (20150115132738)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+DEPRECATION WARNING: `#timestamp` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /vagrant/db/migrate/20150115132738_create_customers.rb:14)
+  [1m[35m (1.9ms)[0m  CREATE TABLE "customers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "stripe_id" varchar, "first_name" varchar, "last_name" varchar, "email" varchar, "description" text, "account_balance" integer, "currency" varchar, "default_card" varchar, "delinquent" boolean, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150115132738"]]
+  [1m[35m (1.8ms)[0m  commit transaction
+Migrating to CreateCreditCards (20150115145300)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+DEPRECATION WARNING: `#timestamp` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in change at /vagrant/db/migrate/20150115145300_create_credit_cards.rb:26)
+  [1m[35m (1.7ms)[0m  CREATE TABLE "credit_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "customer_id" integer, "stripe_id" varchar, "brand" varchar, "exp_month" integer, "exp_year" integer, "fingerprint" varchar, "funding" varchar, "last4" varchar, "address_city" varchar, "address_country" varchar, "address_line1" varchar, "address_line1_check" varchar, "address_line2" varchar, "address_state" varchar, "address_zip" varchar, "address_zip_check" varchar, "country" varchar, "cvc_check" varchar, "dynamic_last4" varchar, "name" varchar, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150115145300"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (3.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (3.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateCustomers (20150115085915)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.2ms)[0m  CREATE TABLE "customers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar, "firstname" varchar, "lastname" varchar, "address" text, "notes" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150115085915"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Migrating to AddStripeIdToCustomer (20150115095652)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.9ms)[0m  ALTER TABLE "customers" ADD "stripe_id" varchar
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150115095652"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Migrating to CreateCreditCards (20150115123529)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  CREATE TABLE "credit_cards" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "number" varchar, "cvc" integer, "exp_month" integer, "exp_year" integer, "customer_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_credit_cards_on_customer_id" ON "credit_cards" ("customer_id")[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150115123529"]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+Migrating to AddStripeIdToCreditCard (20150115173659)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (2.5ms)[0m  [1mALTER TABLE "credit_cards" ADD "stripe_id" varchar[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150115173659"]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+Migrating to AddNameToCreditCard (20150115181042)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (2.7ms)[0m  [1mALTER TABLE "credit_cards" ADD "name" varchar[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150115181042"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Migrating to CreateCharges (20150115182750)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (1.8ms)[0m  [1mCREATE TABLE "charges" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "amount" float, "currency" varchar, "description" text, "credit_card_id" integer, "customer_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  CREATE  INDEX "index_charges_on_credit_card_id" ON "charges" ("credit_card_id")
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_charges_on_credit_card_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_charges_on_credit_card_id' AND type='index'
+[0m
+  [1m[35m (0.3ms)[0m  CREATE  INDEX "index_charges_on_customer_id" ON "charges" ("customer_id")
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150115182750"]]
+  [1m[35m (2.1ms)[0m  commit transaction
+Migrating to AddStripeIdToCharge (20150115184154)
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.7ms)[0m  ALTER TABLE "charges" ADD "stripe_id" varchar
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150115184154"]]
+  [1m[35m (9.4ms)[0m  commit transaction
+Migrating to ChangeAmountTypeToIntToCharge (20150115184740)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TEMPORARY TABLE "acharges" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "amount" float, "currency" varchar, "description" text, "credit_card_id" integer, "customer_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "stripe_id" varchar) 
+  [1m[36m (0.6ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_charges_on_customer_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_charges_on_customer_id' AND type='index'
+[0m
+  [1m[35m (0.0ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_charges_on_credit_card_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_charges_on_credit_card_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "tindex_acharges_on_customer_id" ON "acharges" ("customer_id")[0m
+  [1m[35m (0.1ms)[0m  CREATE  INDEX "tindex_acharges_on_credit_card_id" ON "acharges" ("credit_card_id")
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "charges"[0m
+  [1m[35m (3.1ms)[0m  DROP TABLE "charges"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "charges" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "amount" integer, "currency" varchar, "description" text, "credit_card_id" integer, "customer_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "stripe_id" varchar) [0m
+  [1m[35m (0.0ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_acharges_on_credit_card_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_acharges_on_credit_card_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_acharges_on_customer_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_acharges_on_customer_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m  CREATE  INDEX "index_charges_on_credit_card_id" ON "charges" ("credit_card_id")
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_charges_on_credit_card_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_charges_on_credit_card_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  CREATE  INDEX "index_charges_on_customer_id" ON "charges" ("customer_id")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "acharges"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "acharges"
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150115184740"]]
+  [1m[35m (13.3ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (1.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_charges_on_customer_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_charges_on_customer_id' AND type='index'
+
+  [1m[36m (1.0ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_charges_on_credit_card_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_charges_on_credit_card_id' AND type='index'
+[0m
+  [1m[35m (2.8ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_credit_cards_on_customer_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_credit_cards_on_customer_id' AND type='index'
+
+  [1m[36m (2.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.5ms)[0m  select sqlite_version(*)
+  [1m[36m (3.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.6ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateCustomers (20150115223136)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.7ms)[0m  CREATE TABLE "customers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar, "name" varchar, "stripe_id" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150115223136"]]
+  [1m[35m (2.0ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (3.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (3.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to DeviseCreateCustomers (20150115132339)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
