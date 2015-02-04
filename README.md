@@ -13,7 +13,7 @@ We currently have a `Customer` model that needs to have payment support added to
 - Add a credit card to a `Customer`
 - Update the `Customer`'s credit card if it changes
 - Remove the `Customer`'s credit card
-- Charge a `Customer`s credit card 
+- Charge a `Customer`'s credit card 
 
 Please have RSpec tests written to support your solution.
 
