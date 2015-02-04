@@ -15,7 +15,7 @@ We currently have a `Customer` model that needs to have payment support added to
 - Remove the `Customer`'s credit card
 - Charge a `Customer`'s credit card 
 
-Please have RSpec tests written to support your solution.
+Please have RSpec tests written to support your solution. You are not required to write any views or controllers.
 
 # Submission
 
