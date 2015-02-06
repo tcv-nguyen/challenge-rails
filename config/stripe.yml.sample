@@ -1,0 +1,5 @@
+development:
+  key: replace_with_stripe_key_here
+
+test:
+  key: replace_with_stripe_key_here
